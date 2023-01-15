@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Sevillana&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/* header section cs start  */
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background: rgba(240, 135, 152, 0.123);
+ 
+}
+
+header .logo{
+    font-size: 25px;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+
+header div {
+   margin-right: 100px;
+}
+
+header div a{
+
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+
+}
+
+
+/* header section css end  */
+
+/* home section start  */
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(240, 135, 152, 0.137);
+}
+
+main .Mfstdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .Mfstdiv center h1{
+    width: 500px;    
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+main .Mfstdiv p{
+    width: 600px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+main .Mfstdiv button{
+    margin-top: 20px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    background: #f39c12;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.imgdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv img{
+    width: 70%;
+    margin-top: 20px;
+}
+/* home section end  */
+
+/* future section css start  */
+
+.futursection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    
+}
+
+.futursection .Fimgdiv{
+    width: 400px;
+    display: grid;    
+    gap: 10px;
+    grid-template-columns:repeat(2,1fr);
+    margin-top: 50px;
+
+}
+
+.futursection .Fimgdiv img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.futursection .Ftextdiv{
+    width: 500px;
+    
+}
+
+.futursection .Ftextdiv h1{
+font-weight: bolder;
+font-size: xx-large;
+}
+
+.futursection .Ftextdiv h1 span{
+    font-weight: 500;
+    color: #7d8488;
+    
+}
+
+.futursection .Ftextdiv h2{
+    color: #f39c12;
+    font-size: 30px;
+}
+
+.futursection .Ftextdiv p{
+    font-size: 11px;
+    color: #7d8488;
+    width: 400px;
+}
+
+.futursection .Ftextdiv button{
+    background: #f39c12;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bolder;
+    
+}
+/* <!-- future you wll love enjoy sectio start  */
+.secFutureLove{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+
+.secFutureLove .FFastpart{
+    width: 450px;
+   
+    position: relative;
+}
+
+.secFutureLove .FFastpart::after{
+    width: 4px;
+    height: 65px;
+    background: #FF900E;
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: -15px;
+}
+
+.secFutureLove .FFastpart .Ftitle{
+    font-size: 25px;
+    /* margin: 10px 0px 0px 10px ; */
+}
+
+.secFutureLove .FFastpart p{
+
+    font-size: 10px;
+    color: #7d8488;
+    margin-top: 10px;
+
+}
+
+.secFutureLove .FFastpart .box{
+
+    width: 80%;
+    box-shadow: 0px 0px 10px #eee;
+    padding: 10px;
+    margin:10px 0px 0px 10px;
+
+}
+
+.secFutureLove .FFastpart .box h3{
+   font-size: 12px;
+}
+
+.secFutureLove  .Fimgpart img{
+    width: 450px;
+}
+.secFutureLove .FBTN{
+    width: 200px;
+    height: 100px;
+    background: #f39c12;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0; right: 39%;
+}
+/* future section css end  */
+
+/* facts section css start  */
+
+.factsSec{
+    width: 100%;
+    height: auto;
+    display: flex;
+     
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.factsSec h1{
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.factsSec p{
+    width: 350px;
+font-size: 10px;
+color: #7d8488;
+margin-left: 50px;
+}
+
+.factsSec .boxdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+     
+}
+
+.factsSec .boxdiv .box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #f39c12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.factsSec .boxdiv .box:hover{
+    box-shadow: 0px 0px 10px #f39c12;
+}
+
+.factsSec .boxdiv .box img{
+    width: 35px;
+}
+
+.factsSec .boxdiv .box h2{
+    color: #2a2b2c;
+    margin-top: 5px;
+}
+
+.factsSec .boxdiv .box span{
+    font-size: 12px;
+    font-weight: bolder;
+    color: #7d8488;
+}
+
+
+/* facts section css end  */
+
+/* spnsore section css start  */
+
+.sponsore{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sponsore h1{
+    font-weight: bolder;
+
+}
+
+.sponsore p{
+    width: 400px;
+    height: auto;
+    font-size: 10px;
+    color: #7d8488;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.Sboxdiv{
+    width: 100%;
+     
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Sboxdiv img{
+    width: 120px;
+    
+}
+
+/* team section start  */
+
+.teamsec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.teamsec h1{
+    
+    font-weight: bolder;
+}
+
+.teamsec p{
+   width: 400px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.TboxDiv{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px 0px 0px ;
+   
+}
+.TboxDiv .box{
+    width: 280px;
+    height: auto;
+    box-shadow: 0px 0px 10px #eee;
+    padding: 10px;
+}
+
+.TboxDiv .box .imgT{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+
+.TboxDiv .box .name{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.TboxDiv .box .imgT img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+     
+}
+
+ 
+/* team section start  */
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+footer div{
+    width: 70%;
+    height: 60px;
+    background: rgba(255, 192, 203, 0.315);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+ 
+   
+    color: #7d8488;
+}
+
+/* spnsore section css end  */
+
+
+
+/*===========
+       responsive degaine
+
+       mobile device
+==============*/
+
+@media screen and (max-width: 576px) {
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header div{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    header div a{
+        margin-top: 5px;
+    }
+   
+    main .Mfstdiv center h1{
+        font-size: 25px;
+    }
+   
+    main .Mfstdiv p{
+        width: 80%;
+        font-size: 10px;
+    }
+    .futursection{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding:  40px 0px;
+        
+        
+    }
+    .futursection .Fimgdiv{
+        width: 100%;
+        margin-top: 20px;
+        
+        grid-template-columns: repeat(1,1fr);
+        gap: 5;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .futursection .Fimgdiv img{
+        width: 80%;
+        margin: auto;
+    }
+
+   
+    .futursection .Ftextdiv{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .secFutureLove{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .factsSec{
+        width: 100%;
+       
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .factsSec p{
+        width: 250px;
+        text-align: center;
+    }
+
+    .factsSec .boxdiv{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .sponsore .Sboxdiv{
+
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         align-items: center;
+         justify-content: center;
+         gap: 20px;
+          
+         padding: 10px;
+        
+
+    }
+
+    .sponsore .Sboxdiv img{
+        width: 100px;
+        margin: 10px;
+    }
+
+    footer div{    
+        width: 100%;  
+        text-align: center;    
+    }
+
+    .TboxDiv{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+        
+        margin: 50px 0px 0px ;
+        
+       
+    }
+
+    .teamsec p{
+        width: 300px;
+        
+    }
+
+    .TboxDiv .box{
+        margin-left: 50px;
+    }
+}
